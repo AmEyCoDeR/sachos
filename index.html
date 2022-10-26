@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachi Hospital - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.css" rel="stylesheet"
+        media="all">
+</head>
+
+<body>
+    <nav>
+        <center>
+            <ul class="fordesk">
+                <li><img src="https://www.sachihospital.com/home/images/logo.png" alt="logo"
+                        style="width: 70px; border-radius: 70px;"></li>
+                <li>
+                    <h2>Sachi Hospital</h2>
+                </li>
+                <li><button class="navlink" onclick="window.open('/','_self')">
+                        <center><i class="fa-solid fa-house" style="font-size: 25px;"></i><br>Home</center>
+                    </button></li>
+                <li><button class="navlink" onclick="window.open('/medical','_self')">
+                        <center><i class="fa-solid fa-suitcase-medical" style="font-size: 25px;"></i><br>Medical
+                        </center>
+                    </button></li>
+                <li><button class="navlink" onclick="window.open('/about','_self')">
+                        <center><i class="fa-solid fa-address-card" style="font-size: 25px;"></i><br>About Us</center>
+                    </button></li>
+                <li><button class="navlink" onclick="window.open('/details','_self')">
+                        <center><i class="fa-solid fa-circle-info" style="font-size: 25px;"></i><br>Details</center>
+                    </button></li>
+                <li><button class="navlink" onclick="window.open('/blogs','_self')">
+                        <center><i class="fa-solid fa-book-open-reader" style="font-size: 25px;"></i><br>Blogs</center>
+                    </button></li>
+                <li><button class="navlink" onclick="window.open('/contactus','_self')">
+                        <center><i class="fa-solid fa-phone" style="font-size: 25px;"></i><br>Contact Us</center>
+                    </button></li>
+            </ul>
+            <ul class="forphone">
+                <button id="menu">
+                    <center><i class="fa-solid fa-bars" style="font-size: 25px;"></i></center>
+                    </button>
+                <img src="https://www.sachihospital.com/home/images/logo.png" alt="logo"
+                        style="width: 70px; border-radius: 70px;">
+                
+                    <h2>Sachi Hospital</h2>
+                
+            </ul>
+            <ul class="forphone" id="mobilelinks">
+                <button class="navlink" onclick="window.open('/','_self')">
+                        <center><i class="fa-solid fa-house" style="font-size: 25px;"></i><br>Home</center>
+                    </button>
+                <button class="navlink" onclick="window.open('/medical','_self')">
+                        <center><i class="fa-solid fa-suitcase-medical" style="font-size: 25px;"></i><br>Medical
+                        </center>
+                    </button>
+                <button class="navlink" onclick="window.open('/about','_self')">
+                        <center><i class="fa-solid fa-address-card" style="font-size: 25px;"></i><br>About Us</center>
+                    </button>
+                <button class="navlink" onclick="window.open('/details','_self')">
+                        <center><i class="fa-solid fa-circle-info" style="font-size: 25px;"></i><br>Details</center>
+                    </button>
+                <button class="navlink" onclick="window.open('/blogs','_self')">
+                        <center><i class="fa-solid fa-book-open-reader" style="font-size: 25px;"></i><br>Blogs</center>
+                    </button>
+                <button class="navlink" onclick="window.open('/contactus','_self')">
+                        <center><i class="fa-solid fa-phone" style="font-size: 25px;"></i><br>Contact Us</center>
+                    </button>
+            </ul>
+        </center>
+    </nav>
+    <br><br><br><br><br>
+    <div id="slider">bdfgbgggggggggggggggggggggggggggggggggggggggggg</div>
+    <button><i class="fa-solid fa-location-dot"></i> Visit Hospital</button>
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="https://www.sachihospital.com/home/img1.jpg" alt="image1">
+            </div>
+            <div class="slide">
+                <img src="https://www.sachihospital.com/home/img2.jpg" alt="image2">
+            </div>
+            <div class="slide">
+                <img src="https://www.sachihospital.com/home/img3.jpg" alt="image3">
+            </div>
+            <div class="slide">
+                <img src="https://www.sachihospital.com/home/img4.jpg" alt="image4">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn" id="radio1"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+    </div>
+    <script src="sketch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.js"></script>
+</body>
+
+</html>
